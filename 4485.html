@@ -1,0 +1,189 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="hu">
+<head>
+<title>netadclick</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=0">
+<link href="css/banners.css" rel="stylesheet" type="text/css">
+<style type="text/css"> iframe { volume: silent; } </style>
+
+ 
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="js_1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-33200244-1');
+  gtag('config', 'UA-77137310-1');
+</script>
+
+<script type="text/javascript">
+    function __encodeSec(string){
+        var 
+            codeTable = [252, 321, 168, 11, 158, 207],
+            code = 0,
+            ret = "",
+            tl = codeTable.length,
+            char;
+        if(!string.length)
+            return code;
+        for(var i=0;i<20;i++){
+            char = string.charCodeAt(i % string.length);
+            code = (((char<<5) + char) * codeTable[(char * i) % tl]) % 20;
+            ret += String.fromCharCode(97+code);
+        }
+        return ret;
+    }
+</script></head>
+ <body>
+ <div id="commcont" style="position:absolute; z-index:1000; top:-10px; left:-10px;"></div>
+ <div id="bannercontainer"></div>
+<div id="server_url" style="display:none;">//gateway.netadclick.com/</div>
+			<div id="next_url" style="display:none;">hirdetes/4485/1</div>	<script src="js/hirdetes.js" type="text/javascript"></script>
+	
+	<script type="text/javascript">
+    function encode(string){
+        var 
+            codeTable = [252, 321, 168, 11, 158, 207],
+            code = 0,
+            ret = "",
+            tl = codeTable.length,
+            char;
+        if(!string.length)
+            return $code;
+        for(var i=0;i<20;i++){
+            char = string.charCodeAt(i % string.length);
+            code = (((char<<5) + char) * codeTable[(char * i) % tl]) % 20;
+            ret += String.fromCharCode(97+code);
+        }
+        return ret;
+    }
+    window.encoded = encode("jijohgzig78hz57bhiklh8jl9");
+</script>
+
+<!-- This is the end -->
+    <iframe src="device_id.html" id="deviceIdFrame" width="0" height="0"></iframe>
+       <script type="text/javascript">
+            window.addEventListener("message", function(event) {
+                if(event.origin == "https://api.indidata.com")
+                {
+                    console.log(event.origin+"Hello from " + event.data);
+                    var device_id = event.data;
+               
+                    var userLang = navigator.language || navigator.userLanguage; 
+                    var token_id = "cqucjaujd16";
+                    var json_text = {"token_id":token_id,"device_id":device_id,"language":userLang,"geo":"1098/North Holland"};
+
+                    var indidata_device = new XMLHttpRequest();
+                    indidata_device.open("POST", "https://api.indidata.com/send_device_id",true);
+                   
+                    indidata_device.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+
+                    indidata_device.send( "json=" + encodeURIComponent(JSON.stringify(json_text)) );
+
+                    var d = new Date();
+                    var n = d.getTime();
+                    var event_id_name = "publisher_pageview_event_id_"+n;
+
+                    var event_id = sessionStorageCheck(event_id_name);
+                    if(event_id === null)
+                    {
+                        event_id = n+"_"+Math.random();
+                        sessionStorage.setItem(event_id_name, event_id); 
+                    }
+                    if(event_id === false)
+                    {
+                        event_id = null;
+                    }
+                     event_id = n+"_"+Math.random();
+                   
+                    
+                    var fullurl = "";
+                    console.log(fullurl);
+                    if(fullurl != "")
+                    {
+                        var toplocation = fullurl;
+                    }else{
+                        var toplocation = document.referrer;
+                    }
+                    var referer = "";
+                    indiLoop(0,token_id,device_id,event_id,toplocation,referer);
+                    /*var event_text = {"token_id":token_id,"system_id":"netadclick","device_id":device_id,"event_id":event_id,"event_type":"publisher_pageview","url":toplocation,"zona_id":4485,"event_value":0,"event_category":""};
+                    var indidata_event = new XMLHttpRequest();
+                    indidata_event.open("POST", "https://api.indidata.com/send_event",true);
+                    indidata_event.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+                    indidata_event.send( "event_json=" + encodeURIComponent(JSON.stringify(event_text)) );*/
+
+                    var adevent_id_name = "adview_event_id_"+n;
+
+                    var adevent_id = sessionStorageCheck(adevent_id_name);
+                    if(adevent_id === null)
+                    {
+                        adevent_id = n+"_"+Math.random();
+                        sessionStorage.setItem(adevent_id_name, adevent_id);
+                    }
+                    if(adevent_id === false)
+                    {
+                        adevent_id = null;
+                    }
+                    adevent_id = n+"_"+Math.random();
+
+                    var adview_event_text = {"token_id":token_id,"system_id":"netadclick","device_id":device_id,event_id:adevent_id,event_type:"ad_view","url":toplocation,"zona_id":"4485","ad_id":"12088","event_value":0,"event_category":"","pageview_time": 0};
+                    var indidata_adview_event = new XMLHttpRequest();
+                    indidata_adview_event.open("POST", "https://api.indidata.com/send_event",true);
+                    indidata_adview_event.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+                    indidata_adview_event.send( "event_json=" + encodeURIComponent(JSON.stringify(adview_event_text)) );
+
+                }
+
+                function sessionStorageCheck(event_id_name){
+                    var event_id = null;
+                    try {
+                       event_id = sessionStorage.getItem(event_id_name);
+                        
+                        return event_id;
+                    } catch(e) {
+                        return false;
+                    }
+                }
+                
+                //console.log( JSON.stringify({json_text}) );
+            });
+
+            function indiLoop(counter,token_id,device_id,event_id,url,referer){
+                if(counter<1)
+                {
+                    var interval = 2;
+                }else{
+                    var interval = 300;
+                }
+                
+
+                setTimeout(function() {
+                    var seconds = counter*interval;
+                    counter++;
+                    var event_text = {"token_id":token_id,"system_id":"netadclick","device_id":device_id,"event_id":event_id,"event_type":"publisher_pageview","url":url,"referer":referer,"zona_id":4485,"event_value":0,"event_category":"","pageview_time": seconds};
+                    var indidata_event = new XMLHttpRequest();
+                    indidata_event.open("POST", "https://api.indidata.com/send_event",true);
+                    indidata_event.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+                    indidata_event.onload = function() {
+                            //console.log("Onload");
+                            if (indidata_event.status === 200) {
+                               // console.log("IndiEventOk " + indidata_event.responseText);
+                                indiLoop(counter,token_id,device_id,event_id,url,referer);
+
+                            }
+                            else {
+                                console.log("Request failed.  Returned status of " + indidata_event.status);
+                            }
+                        };
+                    indidata_event.send( "event_json=" + encodeURIComponent(JSON.stringify(event_text)) );
+                  },interval*1000);
+            }
+        </script></body>
+		</html>
+		

@@ -1,0 +1,393 @@
+:focus 				{outline: 0;}
+html,body				{margin:0;padding:0;border:0 none;min-width:980px;}
+body,td				{font:12px Arial,Tahoma,sans-serif;color:#656565}
+h1,h2,h3,h4,h5,h6	{font-weight:bold}
+h1,h2,h3				{font-size:18px;color:#e04605;line-height:30px;}
+h4,h5,h6				{margin:10px 0;font-size:13px}
+h3					{font-size:15px}
+h3 span				{font-size:14px;color:#656565;}
+h4					{color:#e84906}
+h4 span				{float:right;padding-left:25px;line-height:15px;font-size:10px;color:#656565;background:url(../images/login-icons.png) no-repeat scroll 0px -115px}
+a					{text-decoration:none;color:#e84906}
+a:hover				{text-decoration:underline}
+a img				{border:0}
+form					{margin:0}
+fieldset				{margin:0;padding:0;border:0}
+
+.highlight_yellow	{padding:2px 3px 2px 3px;background:#b2b29a;color:#fffefe;}
+
+div.clear 	{clear: both;}
+div.left 		{float:left;margin:0px 0px 0px 0px;padding:0px;}
+div.right 	{float:right;margin:0px 0px 0px 0px;padding:0px;}
+img.shadow,div.shadow	{box-shadow:0px 7px 20px 0px rgba(0,0,0,0.4);-moz-box-shadow:0px 7px 20px 0px rgba(0,0,0,0.4);-webkit-box-shadow:0px 7px 20px 0px rgba(0,0,0,0.4);}
+img.radius,div.radius	{border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;}
+div.message	{border: 1px solid;margin: 20px 0px 10px 0px;padding:15px 10px 15px 50px;background-repeat: no-repeat;background-position: 10px center;}
+div.success	{color: #4F8A10;background-color: #DFF2BF;background-image:url(../images/success.png);border-color:#4F8A10}
+div.false	{color: #cd3636;background-color: #F5E0E0;background-image:url(../images/false.png);border-color:#cd3636}
+div.txtshad	{text-shadow: 1px 1px 2px #000;filter: dropshadow(color=#000, offx=1, offy=1);}
+div.m-b10	{margin-bottom:10px;}
+div.w100		{width:100%;}
+div.center	{text-align:center}
+
+div.Fejlec	{line-height:50px;text-transform:uppercase;color:#e04605;font-size:13px;font-weight:bold;}
+
+img.thumb		{float:left;border:1px solid #d3d4d2;width:100px;height:100px;padding:3px;background-color:#fff}
+img.thumb:hover	{background-color:#f1ce39}
+
+img.kepgal		{float:left;border:1px solid #d3d4d2;width:85px;height:85px;padding:3px;background-color:#fff}
+img.kepgal:hover	{background-color:#f1ce39}
+
+option.nonselectable	{background:#e84906;color:#fff}
+
+input[type=text],
+input[type=password],textarea,select					{border:1px solid #999;background:#fff;-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;outline:0;font:12px Arial,Tahoma,sans-serif}
+
+input[type=text],
+input[type=password],textarea						{width:250px;color:#656565;padding:4px;box-shadow:inset 0 1px 4px #dde1e6;-moz-box-shadow:inset 0 1px 4px #dde1e6;-webkit-box-shadow:inset 0 1px 4px #dde1e6}
+
+input[type="checkbox"]							{padding:3px;margin:0px;border:1px solid #999;float:left;height:30px;}
+
+input[type=text]:focus,
+input[type=password]:focus,
+input[type="checkbox"]:focus,textarea:focus			{border-color:#666}
+
+input[type=text][disabled],
+input[type=password][disabled],
+input[type=password][readonly],textarea[disabled]	{background:#f2f5f8;border-color:#e3e8ee;color:#8c8e92;box-shadow:none;-moz-box-shadow:none;-webkit-box-shadow:none}
+input[type=text][readonly]						{background:#f5f5f7;border-color:#999;color:#656565;box-shadow:none;-moz-box-shadow:none;-webkit-box-shadow:none}
+textarea			{min-height:80px}
+select			{padding:4px;margin-left:0px;}
+select.mailselect	{clear:both;font-size:11px !important}
+
+body {background:url(../images/pattern.png) top left #fff;}
+
+#nincs		{width:100%;display:block;text-align:center;font-style:italic;padding:0px 0px 10px 0px}
+#Gb15		{text-align:left;float:left;clear:both;}
+#Gb15.fff	{width:600px;background:#fff;padding:10px 0px 0px 15px;margin:0px;border-radius:0px 3px 0px 0px;-moz-border-radius:0px 3px 0px 0px;-webkit-border-radius:0px 3px 0px 0px;}
+#Gb15 div		{float:left;margin:0px;padding:0px;}
+
+#picture-up {float:left;width:98px;height:63px;background:url(../images/kep-feltoltes-icon.png) no-repeat left top}
+
+#Top-Menu-Wrapper,#Header-Wrapper,#Main-Wrapper,#Footer-Wrapper	{
+	margin:auto;
+	position:relative;
+	width:1000px;
+	border:0px;
+	padding:0px;
+	clear:both;
+}
+
+/* TOP-MENU */
+#Top-Menu-Wrapper	{height:30px;padding-top:10px;line-height:30px;}
+#Top-Menu			{margin:auto;width:960px;height:29px;line-height:29px;border-bottom: 1px solid #e84906}
+#Top-Menu #Mgomb		{float:left;margin:0px 4px 0px 4px;line-height:29px;text-align:center;text-transform:uppercase;font-weight:bold;padding:0px 8px 0px 8px}
+#Top-Menu #Mgomb.akt	{line-height:28px;border:1px solid #e84906;border-radius:3px 3px 0px 0px;-moz-border-radius:3px 3px 0px 0px;-webkit-border-radius:3px 3px 0px 0px;border-bottom-color:#f5f5f7;margin:0px 3px 0px 3px;background:url(../images/menu-bg-akt.png) repeat-x top left;}
+#Top-Menu #sform		{float:right;width:180px;}
+#Top-Menu #sform input	{width:145px;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;background:url(../images/search-icon.png) no-repeat 5px 6px #e84906;color:#fff;border:0px;font-size:10px;font-weight:bold;font-style:italic;padding:7px 10px 7px 25px;}
+
+/* HEADER */
+#Header-Wrapper				{height:170px;}
+#Header 						{width: 960px;margin: 0px auto 0px auto; height:170px;padding:0px 0px 0px 0px;}
+#Header #H-jobb				{float:right;width:728px;height:170px;text-align:center;padding:0px 0px 0px 0px;overflow:hidden;position:relative;}
+#Header #H-jobb table			{width:100%;padding:0px;border-spacing:0px;}
+#Header #H-jobb table td		{height:170px;}
+
+#Header #H-bal				{float:left;position:relative;top:0px;left:0px;height:170px;width:230px;}
+#Header #H-bal #logo			{float:left;width:188px;height:81px;background:url(../images/logo.png) no-repeat left top;position:relative;top:40px;left:0px}
+#Header #H-bal #plusone		{position:absolute;bottom:43px;right:0px;clear:both;}
+#Header #H-bal #hirdessen	{float:left;position:absolute;bottom:0px;left:0px;background:url(../images/hirdessen.png) no-repeat left center;clear:both;}
+#Header #H-bal #hirdessen a 	{float:left;width:158px;height:43px;}
+
+/* MIDDLE */
+#Middle-Wrapper	{
+	width:100%;
+	border:0px;
+	padding:0px;
+	clear:both;
+	background:#e84906;
+	position:relative;
+}
+#Middle				{min-height:360px;width: 960px;margin: 0px auto 0px auto; padding:20px 0px 0px 0px;position:relative;}
+
+	#Middle #felso					{position:relative;top:0px;left:0px;width:100%;}
+	#Middle #felso #bal				{float:left;width:336;height:280px;text-align:center}
+	#Middle #felso #jobb				{width:604px;float:right;padding-left:20px;}
+
+	#Middle #felso #jobb #kiemelt				{float:left;clear:both;width:424px;}
+	#Middle #felso #jobb #kiemelt #box		{float:left;margin:0px 30px 8px 0px;text-align:center}
+	#Middle #felso #jobb #kiemelt #box span	{float:left;font-size:12px;font-weight:bold;width:110px;overflow:hidden;clear:both;text-align:center;padding-top:3px;}
+	#Middle #felso #jobb #kiemelt #box span a	{color:#fff}
+
+	#Middle #felso #jobb #login							{float:right;width:175px;padding-left:5px;}
+	#Middle #felso #jobb #login .cim						{float:left;clear:both;font-weight:bold;font-size:18px;line-height:22px;color:#fff;}
+	#Middle #felso #jobb #login #box						{float:left;clear:both;margin:0px;padding:0px;}
+	#Middle #felso #jobb #login #box .inputs				{overflow:hidden;margin-top:5px;float:left;width:170px;}
+	#Middle #felso #jobb #login #box .inputs input			{font-size:14px;float:left;width:162px;border:0px;background:#fff;height:20px;}
+	#Middle #felso #jobb #login #box .inputs .button		{float:left}
+	#Middle #felso #jobb #login #box .inputs .button span	{padding-left:12px;padding-right:12px}
+	#Middle #felso #jobb #login #box .labels				{margin:20px 0px 0px 0px;float:left;}
+	#Middle #felso #jobb #login #box .labels label			{display:inline-block;width:170px;color:#656565;font-weight:bold;font-size:11px;color:#fff}
+	#Middle #felso #jobb #login .options					{clear:both;float:left;text-align:left;color:#fff;margin:10px 0px 0px 0px;white-space:nowrap;clear:both;font-size:9px;font-weight:bold;font-style:italic}
+	#Middle #felso #jobb #login .options .error			{color:#d53930;font-weight:bold;padding-right:6px;border-right:0px dotted #948C75;margin-right:8px}
+	#Middle #felso #jobb #login .options label				{padding-right:8px;border-right:1px dotted #948C75;margin-right:8px;display:inline-block}
+	#Middle #felso #jobb #login .options a					{color:#fff;padding-left:20px;float:left;}
+	
+	#Middle #felso #jobb #login .koszont					{width:100%;text-align:center;clear:both;float:left;overflow:hidden;margin:3px 0px 0px 0px;color:#fff}
+	#Middle #felso #jobb #login .koszont a					{color:#f1cf40}
+	
+/* MAIN */
+#Main	{
+	width:960px;
+	margin:-60px 20px 0px 20px;
+	float:left;
+	position:relative;
+	clear:both;
+	background:url(../images/main-bg.png) repeat-y left top #fff;
+	padding-bottom:30px;
+	border:0px;
+	border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;
+	min-height:400px;
+}
+
+	/* Fõoldal felosztás Frame 1 felsõ rész */
+	#Main #Main-fej					{float:left;width:730px;height:60px;}
+	#Main #Main-fej #bal				{float:left;width:730px;padding:10px 25px 0px 25px;}
+	#Main #Main-fej #bal #hsima		{float:left;width:230px;}
+	#Main #Main-fej #bal #hszines		{float:left;width:230px;background:#f1f2f0;margin:0px 10px 0px 10px;padding:0px 10px 0px 10px;border:0px;border-radius:5px 5px 0px 0px;-moz-border-radius:5px 5px 0px 0px;-webkit-border-radius:5px 5px 0px 0px;}
+
+	/* Fõoldal felosztás Frame 1 bal hasáb */
+	#Main #Main-bal1							{float:left;width:730px;padding:0px 25px 30px 25px;}
+	#Main #Main-bal1 #content 				{float:left;width:100%;border:0px; color:#656565;text-align: justify;font: 12px arial,Verdana; line-height:20px;clear:both;}
+	#Main #Main-bal1 #content #box			{float:left;width:230px;padding:0px;text-align:center}
+	#Main #Main-bal1 #content #boxsz			{float:left;width:230px;background:#f1f2f0;margin:0px 10px 0px 10px;padding:0px 10px 30px 10px;}
+	#Main #Main-bal1 #content .ispace			{float:left;width:12px;height:110px;padding:0px;margin:0px;}
+	#Main #Main-bal1 #content .item 			{float:left;margin:0px 0px 8px 0px;text-align:center;width:108px}
+	#Main #Main-bal1 #content .item span		{float:left;line-height:20px;font-size:11px;width:100%;overflow:hidden;clear:both;text-align:center}
+	#Main #Main-bal1 #content .item span a		{color:#e84805}
+
+	/* Fõoldal felosztás Frame 1 jobb hasáb */
+	#Main #Main-jobb1			{float:right;width:180px;padding:0px 0px 30px 0px;}
+
+	/* Fõoldal felosztás Frame 2 bal hasáb */
+	#Main #Main-bal2				{float:left;width:336px;padding:0px 0px 30px 9px;}
+
+	/* Fõoldal felosztás Frame 2 jobb hasábok */
+	#Main #Main-jobb2			{float:right;width:615px;padding:0px 0px 30px 0px;}
+
+	/* Fõoldal felosztás Frame 2 jobb 1.hasáb */
+	#Main #Main-jobb2 #Jobb21			{float:left;width:405px;padding:0px 15px 0px 15px;}
+	#Main #Main-jobb2 #Jobb21 #content	{position:relative;float:left;width:405px;}
+	#Main #Main-jobb2 #Jobb21 #content p	{line-height:150%;font-size:13px;text-align:left}
+
+	/* Fõoldal felosztás Frame 2 jobb 2.hasáb */
+	#Main #Main-jobb2 #Jobb22	{float:right;width:180px;padding:0px 0px 0px 0px;}
+	
+	#Main #Main-jobb2 #Jobb22 #login							{float:right;width:170px;padding:15px 0px 0px 10px;}
+	#Main #Main-jobb2 #Jobb22 #login .cim						{float:left;clear:both;font-weight:bold;font-size:13px;line-height:30px;color:#e84906;text-transform:uppercase}
+	#Main #Main-jobb2 #Jobb22 #login #box						{float:left;clear:both;margin:0px;padding:0px;}
+	#Main #Main-jobb2 #Jobb22 #login #box .inputs				{overflow:hidden;margin-top:5px;float:left;width:160px;}
+	#Main #Main-jobb2 #Jobb22 #login #box .inputs input			{font-size:14px;float:left;width:150px;border:1px solid #ccc;background:#fff;height:20px;}
+	#Main #Main-jobb2 #Jobb22 #login #box .inputs .button		{float:left}
+	#Main #Main-jobb2 #Jobb22 #login #box .inputs .button span	{padding-left:12px;padding-right:12px}
+	#Main #Main-jobb2 #Jobb22 #login #box .labels				{margin:5px 0px 0px 0px;float:left;}
+	#Main #Main-jobb2 #Jobb22 #login #box .labels label			{display:inline-block;width:160px;font-weight:bold;font-size:11px;color:#656565}
+	#Main #Main-jobb2 #Jobb22 #login .options					{clear:both;float:left;text-align:left;color:#656565;margin:15px 0px 0px 0px;white-space:nowrap;clear:both;font-size:9px;font-weight:bold;font-style:italic}
+	#Main #Main-jobb2 #Jobb22 #login .options .error			{color:#d53930;font-weight:bold;padding-right:6px;border-right:0px dotted #948C75;margin-right:8px}
+	#Main #Main-jobb2 #Jobb22 #login .options label				{padding-right:8px;border-right:1px dotted #948C75;margin-right:8px;display:inline-block}
+	#Main #Main-jobb2 #Jobb22 #login .options a				{color:#656565;padding-left:20px;float:left;}
+	
+	#Main #Main-jobb2 #Jobb22 #login .koszont					{width:100%;text-align:center;clear:both;float:left;overflow:hidden;margin:3px 0px 0px 0px}
+
+	#login .options a.forgot		{background:url(../images/login-icons.png) no-repeat scroll 0px -22px}
+	#login .options a.reg		{background:url(../images/login-icons.png) no-repeat scroll 0px 0px}
+	#login .options a.logout		{background:url(../images/login-icons.png) no-repeat scroll 0px -47px}
+	#login .options a.avatar		{background:url(../images/login-icons.png) no-repeat scroll 0px -70px}
+	#login .options a.recept		{background:url(../images/login-icons.png) no-repeat scroll 0px -91px}
+	
+	#login .kep					{width:100%;height:132px;text-align:center;clear:both;float:left;overflow:hidden;margin:10px 0px 0px 0px}
+	#login .kep img				{border-radius:8px;-moz-border-radius:8px;-webkit-border-radius:8px;}
+	
+	/* Kategóriák listája jobb oldalt */
+	#Main #Kategoriak #Katcim	{float:right;width:165px;padding:10px 0px 0px 15px;}
+	#Main #Kategoriak  ul,li		{margin:0px;padding:0px;list-style-type:none}
+	#Main #Kategoriak  ul li		{padding-left:15px;width:165px;line-height:30px;font-weight:bold;font-size:13px;border-bottom:1px dashed #e3e4e2;}
+	#Main #Kategoriak  ul li a		{color:#656565;overflow:hidden;width:165px;height:30px;}
+	#Main #Kategoriak  ul li a.akt	{color:#e84906}
+	#Main #Kategoriak  ul ul		{clear:both;margin:0px 0px 0px 0px;}
+	#Main #Kategoriak  ul ul li		{padding-left:10px;width:155px;line-height:25px;font-weight:normal;font-size:11px;border:0px}
+	#Main #Kategoriak  ul ul li a		{width:155px;height:25px;}
+	
+	#Main #Main-jobb2 #Jobb21 #Kategoriak					{float:left;width:100%;}
+	#Main #Main-jobb2 #Jobb21 #Kategoriak .betu			{float:left;clear:both;font-size:18px;font-weight:bold;color:#e04605;line-height:30px;margin-top:10px}
+	#Main #Main-jobb2 #Jobb21 #Kategoriak .elemek			{float:left;clear:both;font-size:13px;}
+	#Main #Main-jobb2 #Jobb21 #Kategoriak .elemek	a		{color:#656565}
+	#Main #Main-jobb2 #Jobb21 #Kategoriak .elemek	a:hover	{color:#e04605;text-decoration:none}
+	
+
+	/* Lap alja elemek listája */
+	#Main #ItemList			{clear:both;width:730px;float:left;margin:5px 0px 0px 0px;font-size:13px;padding:0px 25px 0px 25px}
+	#Main #ItemList #cim		{float:left;line-height:30px;}
+	#Main #ItemList #txt		{float:left;width:100%;line-height:18px;}
+	#Main #ItemList #txt a	{color:#656565;}
+
+	/* Lapozó */
+	#lapozo				{float:left;padding:6px 0px 10px 0px;border:0px;font-size:12px;clear:both;line-height:22px;}
+	#lapozo .n			{float:left;padding:0px 7px 0px 7px;text-align:center;font-weight:bold;color:#b8a8a0}
+	#lapozo .n a			{color:#7a716d;}
+	#lapozo .akt			{float:left;padding:0px 7px 0px 7px;text-align:center;font-weight:bold;background:#e94906;color:#fff;}
+	
+	/* Fórum */
+	#Forum-box				{width:100%;float:left;background:url() no-repeat bottom left;min-height:194px;clear:both;}
+	#Forum-box 				{width:100%;float:left;background:url() no-repeat top left;min-height:77px;padding:0px 0px 20px 0px;color:#7b7164;font-size:12px}
+	#Forum-box				{width:100%;}
+	#Forum-box table			{width:100%;padding:0px;border-spacing:0px;}
+	#Forum-box table span		{font-size:10px}
+	#Forum-box thead			{font-family:arial;font-size:13px;font-weight:bold;color:#e84906}
+	#Forum-box thead th 		{padding:15px 0px 15px 0px;}
+	#Forum-box tbody  			{font-family:arial;font-size:13px;}
+	#Forum-box tbody span		{font-size:11px}
+	#Forum-box tbody td 		{border-bottom:0px solid #e2dfd6;padding:6px 5px 6px 0px;background:url()}
+	#Forum-box tbody td a		{color:#7b7164}
+	#Forum-box tbody .a 		{background-color:none}
+	#Forum-box tbody .b 		{background-color:#f9faf9}
+	
+	#Hsz 						{width:100%;float:left;clear:both;min-height:64px;position:relative;margin-bottom:10px;}
+	#Hsz #Hsz-box 				{width:310px;float:left;padding:0px 0px 0px 0px;color:#656565;font-size:11px;background:#f1f2f0;min-height:50px;position:relative}
+	#Hsz #Hsz-box #tartalom 		{width:290px;padding:10px;line-height:16px;min-height:50px;clear:both}
+	#Hsz #Hsz-box #tartalom a		{font-size:12px;color:#7b7164}
+	#Hsz #Hsz-box #tartalom div	{position:absolute;bottom:0px;left:15px}
+	#Hsz #Hsz-tobbi				{width:85px;float:left;min-height:50px;padding:6px 10px 0px 0px;text-align:right;color:#fffefe}
+	#Hsz #Hsz-tobbi #user 		{width:100%;float:right;padding:0px 0px 2px 0px;font-size:11px;font-family:arial;clear:both;color:#fb4400;text-align:right}
+	#Hsz #Hsz-tobbi #user span	{color:#fffefe;font-size:11px}
+	#Hsz #Hsz-tobbi #datum 		{width:100%;float:right;padding:0px 0px 0px 0px;clear:both;font-size:10px;font-family:arial;text-align:right;color:#7b7164}
+
+	/* Kép galéria */
+	#Kepgaleria					{float:left;}
+	#Kepgaleria .kspace			{float:left;width:10px;height:93px;padding:0px;margin:0px;}
+	#Kepgaleria #kepek 			{float:left;margin:0px 0px 8px 0px;text-align:center;}
+	
+	/* Receptek lista*/
+	#Receptek							{float:left;width:100%;clear:both;margin-bottom:10px}
+	#Receptek h3							{margin:10px 0px 10px 0px}
+	#Receptek #Rbal						{float:left;width:175px;}
+	#Receptek #Rbal img					{padding:3px;border:1px solid #ccc;max-width:150px;max-height:150px;}
+	#Receptek #Rjobb						{float:right;width:230px;padding-left:0px;}
+	#Receptek #Rszoveg					{float:left;clear:both;width:100%;}
+	#Receptek #Rszoveg #Rgombok,#Rtxt	{float:left;clear:both;width:100%;}
+	#Receptek #Rtxt						{margin-bottom:5px;}
+	#Receptek #Rkat						{float:left;padding:0px 8px 0px 25px;margin-bottom:3px;height:18px;line-height:18px;font-size:11px;color:#e84906;background:url(../images/login-icons.png) no-repeat scroll 0px -270px}
+	
+	#Regy			{width:135px;text-align:center;padding:0px;margin:0px;display:inline-block;float:left;}
+	#Regy span		{float:left;clear:both;width:100%;text-align:center;padding:5px 0px 5px 0px;}
+	#Regy img		{border:1px solid #d3d4d2;width:100px;height:100px;padding:3px;background-color:#fff}
+	#Regy img:hover	{background-color:#f1ce39}
+	
+	/* Rendezés tábla */
+	#Rendez					{float:left;position:relative;left:-15px;width:435px;padding:10px 0px 10px 0px;background:#f6f7f6}
+	#Rendez form,table			{padding:0px;margin:0px;left:0px;}
+	#Rendez form table td		{font-size:9px;color:#656565;}
+	#Rendez form table td.label	{padding:0px 15px 0px 15px;}
+	#Rendez form table td.gomb	{padding-left:8px;}
+	#Rendez form table select		{font-size:10px;padding:2px;width:80px;margin:0px;}
+	
+	/* Egy recept */
+	#Egy						{float:left;width:100%;clear:both}
+	#Egy #ebal					{float:left;width:165px;}
+	#Egy #ebal #fokep			{float:left;width:158px;height:158px;}
+	#Egy #ebal #fokep img			{padding:3px;border:1px solid #ccc;max-width:150px;max-height:150px;}
+	#Egy #ebal ul					{margin:0px 0px 20px 0px;padding:0px;list-style-type:none;}
+	#Egy #ebal ul li				{position:relative;float:left;width:165px;}
+	#Egy #ebal ul li div				{float:left;position:relative;left:10px;top:0px;line-height:22px;width:145px;}
+	#Egy #ebal ul li span			{float:left;position:relative;background:url(../images/login-icons.png) no-repeat scroll 4px -316px;width:15px;height:28px;left:0px;top:0px;}
+	#Egy #ebal #hanyfo			{float:left;}
+	#Egy #ebal #hanyfo #fo		{float:left;height:42px;line-height:42px;background:#e84906;color:#fff;text-align:center;font-size:18px;font-weight:bold;padding:0px 10px 0px 10px}
+	#Egy #ebal #hanyfo span		{float:left;padding:8px 0px 0px 10px;font-size:11px;color:#656565;line-height:13px}
+	#Egy #ejobb					{float:right;width:234px;padding-left:5px;}
+	#Egy #ejobb p				{font-size:13px;}
+	#Egy #ejobb #menu			{float:left;height:158px;margin:0px;padding:0px;}
+	#Egy #ejobb #menu #kat		{float:left;padding:0px 8px 0px 25px;margin-bottom:3px;height:18px;line-height:18px;font-size:11px;color:#e84906;background:url(../images/login-icons.png) no-repeat scroll 0px -270px}
+	
+	/* Szakácsok */
+	
+	#Szakacsok				{width:100%;border-spacing:0px;padding:0px;}
+	#Szakacsok	td 			{width:135px;}
+	#Szakacsok	td img		{border:1px solid #d3d4d2;width:100px;height:100px;padding:3px;background-color:#fff}
+	#Szakacsok	td img:hover	{background-color:#f1ce39}
+	#Szakacsok	td span		{width:100px;clear:both;margin:auto;display:block;padding:5px 0px 5px 0px;text-align:center;}
+	#Szakacsok	td span a		{color:#656565}
+	#Szakacsok	td span span	{font-size:11px;text-align:center;width:100%;display:block;}		
+	
+	/* Egy recept */
+	#EgySzakacs						{float:left;width:100%;clear:both;margin-bottom:20px;position:relative}
+	#EgySzakacs #szbal				{float:left;width:140px;}
+	#EgySzakacs #szbal #szfokep		{float:left;}
+	#EgySzakacs #szbal #szfokep img	{padding:3px;border:1px solid #ccc;max-width:130px;max-height:130px;}
+	#EgySzakacs #szjobb				{float:right;position:relative;right:0px;top:-40px;padding-bottom:40px;}
+	
+	/* Saját */
+	#Sajat						{float:left;width:100%;clear:both}
+	#Sajat #skep					{float:left;width:100px}
+	#Sajat #skep img				{width:75px}
+	#Sajat #sadatok 				{float:left}
+	#Sajat #sadatok #scim		{font-size:15px;font-weight:bold;color:#e84906;float:left;margin-bottom:10px;line-height:20px}
+	#Sajat #sadatok #scim span	{font-weight:normal;font-size:13px;color:#656565;clear:both;float:left;line-height:20px}
+	
+	/* Beállítások */
+	#Beallitasok			{float:left;}
+	#Beallitasok form		{float:left;clear:both;width:100%;}
+	#Beallitasok #Binputs 	{line-height:40px;float:left;width:100%;}
+	#Beallitasok #Email_txt	{float:left;width:100%;display:none;font-size:11px;line-height:25px;margin:0px 0px 10px 0px;padding:0px}
+	#Beallitasok #Bertesites	{line-height:30px;height:30px;float:left;width:100%;}
+	
+	/* Beküldés */
+	#Infobox-nyil			{float:right;width:4px;height:7px;margin-top:25px;background:url(../images/login-icons.png) no-repeat scroll 0px -385px;}
+	#Infobox				{float:right;width:270px;padding:10px 10px 10px 10px;background:#e84906;border-radius:8px;-moz-border-radius:8px;-webkit-border-radius:8px;color:#fff;margin-bottom:10px;}
+	#Infobox #cim			{float:left;clear:both;font-size:14px;font-weight:bold;}
+	#Infobox #txt			{float:left;clear:both;font-size:11px;padding-top:10px;}
+	#Infobox2				{float:right;clear:both;width:270px;padding:10px 10px 10px 10px;margin:0px 7px 20px 0px;font-size:11px}
+	
+	/* Mit fõzzek*/
+	
+	#Mitfozzek								{width:100%;float:left;position:relative;top:0px;left:0px;}
+	#Mitfozzek #Mcim							{float:left;clear:both;font-style:italic;font-size:13px;width:240px;}
+	#Mitfozzek #Mbg							{position:relative;top:-80px;left:0px;width:100%;float:left;padding-top:80px;background:url(../images/mitfozzek.png) no-repeat right top}
+	#Mitfozzek #Mbg div 						{width:155px;display:inline-block;float:left;margin-bottom:20px;}
+	#Mitfozzek #Mbg ul						{float:left;margin:0px 0px 0px 5px;padding:0px;}
+	#Mitfozzek #Mbg ul li 						{float:left;width:100%;line-height:25px;}
+	#Mitfozzek #Mbg ul li span					{width:115px;float:left;padding:0px 5px 0px 5px}
+	#Mitfozzek #Mbg ul li input					{width:25px;float:left;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px;height:25px;}
+	#Mitfozzek #Mbg div.messages				{float:left;clear:both;width:100%;text-align:center;font-weight:bold;color:#ff0000;}
+	
+	form.cmxform table td.ci span.info	{float:left;clear:both;line-height:16px;min-height:16px;background:url(../images/login-icons.png) no-repeat scroll 0px -345px;padding-left:25px;font-size:10px;margin:10px 0px 10px 0px}
+	form.cmxform table td.ci label		{float:left;clear:both;font-size:11px;padding:0px 10px 0px 0px;line-height:29px;text-align:right;width:90px}
+	form.cmxform table td.ci .w100		{width:100px}
+	form.cmxform table td.ci .w110		{width:110px}
+	form.cmxform table td.ci .w150		{width:150px}
+	form.cmxform table td.ci span.txt	{line-height:29px;font-size:11px;background:none;padding:0px 0px 0px 5px;margin:0px;}
+	form.cmxform table td.ci .watermark 	{color: #999 !important;}
+	
+	/* Megosztás doboz */
+	#Shared				{clear:both;float:left;}
+	#Shared ul			{margin:0px;padding:0px;}
+	#Shared ul li			{height:24px;margin:0px;padding:0;vertical-align:middle;display:inline-block;overflow:hidden;line-height:24px}
+	#Shared a.mail		{float:left;background:url(../images/login-icons.png) no-repeat scroll 0px -230px;margin-right:5px;width:24px;height:24px}
+	#Shared a.print		{float:left;background:url(../images/login-icons.png) no-repeat scroll -1px -190px;margin-right:5px;width:24px;height:24px}
+	#Shared a.facebook	{float:left;background:url(../images/login-icons.png) no-repeat scroll 0px -150px;margin-right:5px;padding-left:30px;height:24px;color:#3b5998;font-weight:bold;font-size:13px;line-height:24px;}
+	
+/* FOOTER */
+#Footer					{width:960px;min-height:100px;margin:0px 20px 0px 20px;float:left;}
+
+	#Footer #impressz		{padding:0px 0px 0px 0px;position:absolute;top:25px;left:25px;}
+	#Footer #impressz a		{text-decoration:none;color:#737373;font-size:11px}
+	#Footer #impressz a:hover{text-decoration:underline}
+	#Footer #impressz td 		{padding-right:20px;}
+
+	#Footer #made			{padding:0px 0px 0px 0px;position:absolute;top:20px;right:20px}
+
+/* 404error */
+#Error404				{float:left;font-size:100px;line-height:100px;color:#ed1b24;font-weight:bold;clear:both;width:100%;margin:0px 0px 0px 0px;padding:0px;}
+#Error404 span			{color:#000;font-size:70px;font-weight:bold}
+#ErrorMsg				{clear:both;float:left;width:100%;}
+#ErrorMsg #logo			{background:url(../images/logo_v.png) no-repeat scroll 0 0;display:inline-block;width:118px;height:47px;float:left;margin-right:5px}
+#ErrorMsg #logo:hover 	{background-position:0 -47px;cursor:pointer}
+#ErrorMsg #txt			{width:60%;float:left;padding:10px;margin:0px 10px 0px 0px;font-size:13px;}

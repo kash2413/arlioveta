@@ -1,0 +1,100 @@
+form.cmxform {
+	width: 100%;
+	font-size: 12px;
+	color: #333;
+	margin:0px;
+	padding:0px;
+	clear:both;
+}
+form.cmxform fieldset {
+	margin:0px;
+	padding:0px;
+}
+form.cmxform table	{
+	width:100%;
+}
+form.cmxform table td.cn {
+	WIDTH:108px;
+	padding:5px 10px 3px 0px;
+	text-align:right;
+	font-weight:bold;
+	color:#656565;
+	line-height:20px;
+	vertical-align:top;
+}
+form.cmxform table td.ci {
+	padding:0px 0px 0px 0px;
+	vertical-align:top
+}
+form.cmxform table td.cim {
+	padding:30px 0px 10px 16px;
+	text-align:left;
+	font-size:12px;
+	font-weight:bold;
+	color:#e04605;
+	font-family:arial;
+	text-transform:uppercase
+}
+form.cmxform table td .messages	{
+	padding:0px 0px 0px 16px;
+	color:#ff0000;
+	font-family:arial;
+	font-weight:bold;
+	font-size:11px;
+}
+form.cmxform table td sup {
+	color:#ff0000;
+	font-size:10px;
+	margin:0px 0px 0px 5px;
+	padding:0px;
+	float:right
+}
+form.cmxform table td.ci span.jog {
+	float:left;
+	padding:3px 16px 0px 0px;
+	background:none;
+	text-align:left;
+	font-family:arial;
+	font-size:12px;
+}
+form.cmxform table td.ci div.pad	{
+	float:left;
+	padding-left:150px;
+}
+
+form.cmxform legend {
+	padding-left: 0px;
+}
+form.cmxform legend, form.cmxform label 	{
+	color: #656565;
+}
+form.cmxform fieldset {
+	border: none;	
+	background: none;
+}
+form.cmxform fieldset fieldset	{
+	background: none;
+}
+form.cmxform fieldset p, form.cmxform fieldset fieldset {
+	padding: 0px;
+	background: none;
+	text-align:left
+}
+
+form.cmxform div.error, div.error {
+	color: red;
+	font-style: italic;
+	font-size:11px;
+	background:url(../images/error.png) no-repeat left center;
+	padding:3px 0px 3px 20px;	
+	display:inline-block;
+	margin-left:10px;
+}
+div.error { display: none;}
+
+input[type=checkbox]	{border: none;width:25px;}
+input[type=file]		{background:none;}
+input.code			{width: 86px;background:url() no-repeat left top;}
+select.error 			{border: 1px dotted #ff0000;}
+select.mailselect		{margin-top:3px;border:0px;}
+form.cmxform .gray * 	{color: gray; }

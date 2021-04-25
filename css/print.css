@@ -1,0 +1,74 @@
+:focus 				{outline: 0;}
+html,body			{margin:0;padding:0;border:0 none;min-width:980px;}
+body,td				{font:12px Arial,Tahoma,sans-serif;color:#656565}
+h1,h2,h3,h4,h5,h6	{font-weight:bold}
+h1,h2,h3				{font-size:18px;color:#e04605;line-height:30px;}
+h4,h5,h6				{margin:10px 0;font-size:13px}
+h3					{font-size:15px}
+h4					{color:#e84906}
+
+a					{text-decoration:none;color:#e84906}
+a img				{border:0}
+
+
+div.clear 	{clear: both;}
+div.left 		{float:left;margin:0px 0px 0px 0px;padding:0px;}
+div.right 	{float:right;margin:0px 0px 0px 0px;padding:0px;}
+
+div.m-b10	{margin-bottom:10px;}
+div.w100		{width:100%;}
+div.center	{text-align:center}
+
+div.Fejlec	{line-height:50px;text-transform:uppercase;color:#e04605;font-size:13px;font-weight:bold;}
+
+img.thumb		{float:left;border:1px solid #d3d4d2;max-width:120px;padding:3px;}
+img.kepgal		{float:left;border:1px solid #d3d4d2;max-width:120px;padding:3px;}
+
+input,textarea,select	{padding:4px;border:0px solid #999;background:none;outline:0;font:12px Arial,Tahoma,sans-serif}
+body {background:none}
+
+#Top-Menu-Wrapper,#Header-Wrapper,#Footer-Wrapper, #Middle-Wrapper, 
+#Shared,#lapozo,#Hsz,#HszCim,#nincsadat,#Megfozom,#Gb15,.ratingblock,
+#Main-fej,#Main-bal1,#Main-jobb1,#Main-bal2,#Jobb22, #LeirasCim,
+#ItemList, form, h4 span	{
+	display:none;
+}
+
+/* MAIN */
+#Main	{
+	width:930px;
+	margin:10px;
+	float:left;
+	clear:both;
+	background:none;
+	padding:15px;
+	border:0px;
+	min-height:400px;
+}
+
+	/* Fõoldal felosztás Frame 2 jobb hasábok */
+	#Main-jobb2			{float:left;width:100%;padding:0px 0px 0px 0px;}
+
+	/* Fõoldal felosztás Frame 2 jobb 1.hasáb */
+	#Main-jobb2 #Jobb21			{float:left;width:100%}
+	#Main-jobb2 #Jobb21 #content 	{float:left;width:100%;padding-top:350px;}
+	#Main-jobb2 #Jobb21 #content p	{line-height:20px;font-size:13px;text-align:justify;margin:0px;}
+
+	#Egy						{float:left;width:100%;clear:both;}
+	#Egy #ebal					{float:left;width:200px;}
+	#Egy #ebal #fokep			{float:left;width:158px;height:158px;}
+	#Egy #ebal #fokep img			{padding:3px;border:1px solid #ccc;max-width:150px;max-height:150px;}
+	#Egy #ebal ul					{margin:0px 0px 20px 0px;padding:0px;list-style-type:none;}
+	#Egy #ebal ul li				{line-height:30px;height:25px;background:url(../images/login-icons.png) no-repeat scroll 4px -313px;padding-left:15px}
+	#Egy #ebal #hanyfo			{float:left;}
+	#Egy #ebal #hanyfo #fo		{float:left;height:42px;line-height:42px;background:#e84906;color:#fff;text-align:center;font-size:18px;font-weight:bold;padding:0px 10px 0px 10px}
+	#Egy #ebal #hanyfo span		{float:left;padding:8px 0px 0px 10px;font-size:11px;color:#656565;line-height:13px}
+	#Egy #ejobb					{float:left;padding:0px;width:700px}
+	#Egy #ejobb #menu			{float:left;margin:0px;padding:0px;display:none}
+	#Egy #ejobb #menu #kat		{float:left;padding:0px 8px 0px 25px;margin-bottom:3px;height:18px;line-height:18px;font-size:11px;color:#e84906;background:url(../images/login-icons.png) no-repeat scroll 0px -270px}
+	
+
+	/* Kép galéria */
+	#Kepgaleria					{float:left;}
+	#Kepgaleria .kspace			{float:left;width:10px;height:93px;padding:0px;margin:0px;}
+	#Kepgaleria #kepek 			{float:left;margin:0px 0px 8px 0px;text-align:center;}
